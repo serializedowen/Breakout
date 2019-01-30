@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "rxjs": "^6.2.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "rxjs-compat": "^6.3.3",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
